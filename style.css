@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida SansUnicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.left_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100px;
+    padding-left: 8rem;
+}
+
+.left_container i {
+    margin-bottom: 3rem;
+}
+
+.left_container .tweet i {
+    border:2px solid #1da1f2;
+    padding: 1.4rem .5rem;
+    margin-bottom: 0rem;
+    border-radius: 50%;
+    background-color: #1da1f2;
+    margin-left: -.7rem;
+}
+
+.left_container img {
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-left: -.5rem;
+}
+
+.middle_container {
+    width: 650px;
+    border-right: .5px solid rgb(206, 202, 202);
+    border-left: 15px solid rgb(206, 202, 202);
+}
+
+.middle_container h3 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.middle_container .for_you {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: .5rem;
+    border-bottom: .5px solid rgb(206, 202, 202);
+    padding-bottom: .7rem;
+}
+
+.middle_container .for_you p {
+    color: gray;
+}
+
+.middle_container .for_you span {
+    color: black;
+    font-weight: bolder;
+    border-bottom: 4px solid #1da1f2;
+    padding-bottom: .5rem;
+    border-radius: .2rem;
+}
+
+.middle_container .happening_info {
+    border-bottom: .5px solid rgb(206, 202, 202);
+    padding-left: 1rem;
+}
+
+.middle_container .happening {
+    display: flex;
+    align-items: center;
+}
+
+.middle_container .happening p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.middle_container .happening img {
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.middle_container .tweets {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem -4rem;
+}
+
+.middle_container .tweets i {
+    margin-right: 1rem;
+}
+
+.middle_container .tweets_btn {
+    background-color: #68bcf1;
+    color: #fff;
+    padding: .4rem .7rem;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.middle_container .post_info {
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.middle_container .post_info_img img {
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.middle_container .post_info_2 {
+    display: flex;
+}
+
+.middle_container .post_info_2 h3 {
+    margin-top: -.5rem;
+    margin-left: -2rem;
+}
+
+.middle_container .post_info_2 img {
+    border-radius: 1rem;
+}
+
+.middle_container .username {
+    color: gray;
+}
+
+.middle_container .username span {
+    font-weight: bolder;
+    color: black;
+}
+
+.middle_container .post_info_texts {
+    margin-top: .5rem;
+    line-height: 1.4rem;
+    width: 490px;
+    margin-bottom: .5rem;
+    font-weight: lighter;
+    font-size: .9rem;
+}
+
+.middle_container .post_info_texts span {
+    color: #1da1f2;
+}
+
+.right_container {
+    width: 250px;
+    margin-top: 1rem;
+}
+
+.right_container .twitter_trends {
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+    background-color: rgb(230, 235, 239);
+    color: gray;
+    padding-left: .5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-right: 6rem;
+    border-radius: 15px;
+}
+
+.right_container .twitter_trends i {
+    margin-right: 1rem;
+}
+
+.right_container .twitter_trends_tags {
+    background-color: rgb(230, 235, 239);
+    font-size: .8rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.right_container .twitter_trends_tags h2 {
+    padding-top: .2rem;
+    padding-bottom: .5rem;
+}
+
+.right_container .trending_tags {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    line-height: 1.3rem;
+}
+
+.right_container .trending_tags p {
+    color: gray;
+}
